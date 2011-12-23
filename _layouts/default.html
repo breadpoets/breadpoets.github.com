@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en-us">
+	<head>
+		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+		<title>The Bread Poets' Society:  {{page.title}}</title>
+		<link rel="stylesheet" type="text/css" href="/bps.css">
+		<link rel="shortcut icon" href="/favicon.ico">
+	</head>
+
+	<body>
+		<div id="frameLeft">
+			<img src="{{ page.pic }}" alt="bread poets society"/>
+			{% include nav.html %} 
+		</div>
+
+		<div id="frameTop">
+			<a href="index.html">
+				<img src="/bps-logo.gif" border=0 alt="The Bread Poets' Society: recipes in verse">
+			</a>
+		</div>
+
+		<div id="main">
+			{{ content }}
+		</div>	
+	</body>
+</html>
+
